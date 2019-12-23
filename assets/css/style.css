@@ -17,16 +17,12 @@ body {
 }
 
 #scatter {
-    position: relative;
+    /* position: relative; */
     margin-top: 50px;
-    margin-bottom: 50px;
-    border: black solid;
-    /* left: 650px; */
-    z-index: -1;
-    padding: 15px;
+    margin-bottom: 100px;
+    padding: 0px;
+    /* z-index: -1; */
     display: block;
-    /* width: 400px;
-    height: 300px; */
 }
 
 .title {
@@ -34,8 +30,9 @@ body {
 }
 
 .article {
-    position: absolute;
+    position: relative;
     font-size: 20px;
+    margin-top: 50px;
 }
 
 #footer {
